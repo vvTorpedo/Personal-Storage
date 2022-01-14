@@ -1,7 +1,16 @@
 {
+    "_configurableData": {
+        "port": 4444,
+        "securityToolsEnabled": true
+    }
     "_personalData": {
-        "username": "Placeholder (Required)",
-        "firstName": "Placeholder (Required)",
-        "lastName": "Placeholder (Optional)"
+        "firstName": null,
+        "lastName": null
+    }
+    "_accountData": {
+        "accountID": null,
+        "accountName": null,
+        "accountIcon": null,
+        "accountIconURL": null
     }
 }
