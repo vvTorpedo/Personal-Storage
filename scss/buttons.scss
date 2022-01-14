@@ -1,0 +1,51 @@
+@import url(./helpers/variables.scss);
+/* Normal Button */
+
+.btn-primary-dynamic {
+    border: none;
+    background-color: $primary;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.btn-primary-dynamic:hover {
+    cursor: pointer;
+    background-color: $primary-hover;
+}
+
+.btn-primary-dynamic:active {
+    transform: translateY(1.5px);
+}
+
+.btn-primary-static {
+    border: none;
+    background-color: $primary;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.btn-primary-static:hover {
+    cursor: pointer;
+    background-color: $primary-hover;
+}
+
+.btn-primary-disabled {
+    border: none;
+    background-color: $primary;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.btn-primary-disabled:hover {
+    cursor: not-allowed;
+    background-color: $primary-hover;
+}
