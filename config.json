@@ -1,5 +1,5 @@
 {
-    "_configurableData: {
+    "_configurableData": {
         "port": 4444,
         "securityToolsEnabled": true
     }
@@ -9,7 +9,7 @@
     }
     "_accountData": {
         "accountID": null,
-        "accountName: null,
+        "accountName": null,
         "accountIcon": null,
         "accountIconURL": null
     }
